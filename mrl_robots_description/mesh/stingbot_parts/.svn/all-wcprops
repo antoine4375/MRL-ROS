@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/486/stacks/mrl_robots/trunk/mrl_robots_description/mesh/stingbot_parts
+END
+wheels_sonars.stl
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/486/stacks/mrl_robots/trunk/mrl_robots_description/mesh/stingbot_parts/wheels_sonars.stl
+END
+batteries.stl
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/486/stacks/mrl_robots/trunk/mrl_robots_description/mesh/stingbot_parts/batteries.stl
+END
+metals.stl
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/486/stacks/mrl_robots/trunk/mrl_robots_description/mesh/stingbot_parts/metals.stl
+END
+acrylic.stl
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/486/stacks/mrl_robots/trunk/mrl_robots_description/mesh/stingbot_parts/acrylic.stl
+END
+chasis.stl
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/486/stacks/mrl_robots/trunk/mrl_robots_description/mesh/stingbot_parts/chasis.stl
+END

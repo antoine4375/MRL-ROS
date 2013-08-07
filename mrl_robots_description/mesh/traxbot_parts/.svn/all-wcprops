@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/486/stacks/mrl_robots/trunk/mrl_robots_description/mesh/traxbot_parts
+END
+chassi.STL
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/486/stacks/mrl_robots/trunk/mrl_robots_description/mesh/traxbot_parts/chassi.STL
+END
+wheels_sonars.STL
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/486/stacks/mrl_robots/trunk/mrl_robots_description/mesh/traxbot_parts/wheels_sonars.STL
+END
+tracks_bat_caster.STL
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/486/stacks/mrl_robots/trunk/mrl_robots_description/mesh/traxbot_parts/tracks_bat_caster.STL
+END
+acrylic_support.STL
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/486/stacks/mrl_robots/trunk/mrl_robots_description/mesh/traxbot_parts/acrylic_support.STL
+END

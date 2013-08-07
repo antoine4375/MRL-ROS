@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/486/stacks/mrl_robots/trunk/mrl_robots_2dnav/launch
+END
+traxbot_bringup.launch
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/486/stacks/mrl_robots/trunk/mrl_robots_2dnav/launch/traxbot_bringup.launch
+END
+move_stingbot_isr_map.launch
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/486/stacks/mrl_robots/trunk/mrl_robots_2dnav/launch/move_stingbot_isr_map.launch
+END
+move_traxbot_arena_mrl.launch
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/486/stacks/mrl_robots/trunk/mrl_robots_2dnav/launch/move_traxbot_arena_mrl.launch
+END
+move_stingbot_arena_mrl.launch
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/486/stacks/mrl_robots/trunk/mrl_robots_2dnav/launch/move_stingbot_arena_mrl.launch
+END
+stingbot_bringup.launch
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/486/stacks/mrl_robots/trunk/mrl_robots_2dnav/launch/stingbot_bringup.launch
+END
+move_traxbot_isr_map.launch
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/486/stacks/mrl_robots/trunk/mrl_robots_2dnav/launch/move_traxbot_isr_map.launch
+END

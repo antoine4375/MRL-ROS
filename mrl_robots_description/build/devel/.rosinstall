@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/antoine/workspace/mrl_robot/mrl_robots_description/build/devel/setup.sh

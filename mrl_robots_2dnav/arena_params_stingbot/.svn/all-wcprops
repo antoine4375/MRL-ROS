@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/486/stacks/mrl_robots/trunk/mrl_robots_2dnav/arena_params_stingbot
+END
+base_local_planner_params.yaml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/486/stacks/mrl_robots/trunk/mrl_robots_2dnav/arena_params_stingbot/base_local_planner_params.yaml
+END
+global_costmap_params.yaml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/486/stacks/mrl_robots/trunk/mrl_robots_2dnav/arena_params_stingbot/global_costmap_params.yaml
+END
+costmap_common_params.yaml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/486/stacks/mrl_robots/trunk/mrl_robots_2dnav/arena_params_stingbot/costmap_common_params.yaml
+END
+local_costmap_params.yaml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/486/stacks/mrl_robots/trunk/mrl_robots_2dnav/arena_params_stingbot/local_costmap_params.yaml
+END

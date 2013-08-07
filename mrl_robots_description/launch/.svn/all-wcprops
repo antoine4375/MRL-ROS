@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/486/stacks/mrl_robots/trunk/mrl_robots_description/launch
+END
+display_traxbot.launch
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/486/stacks/mrl_robots/trunk/mrl_robots_description/launch/display_traxbot.launch
+END
+display_stingbot.launch
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/486/stacks/mrl_robots/trunk/mrl_robots_description/launch/display_stingbot.launch
+END
+frames.gv
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/486/stacks/mrl_robots/trunk/mrl_robots_description/launch/frames.gv
+END

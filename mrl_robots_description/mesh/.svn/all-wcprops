@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/486/stacks/mrl_robots/trunk/mrl_robots_description/mesh
+END
+stingbot.urdf
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/486/stacks/mrl_robots/trunk/mrl_robots_description/mesh/stingbot.urdf
+END
+traxbot.urdf
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/486/stacks/mrl_robots/trunk/mrl_robots_description/mesh/traxbot.urdf
+END

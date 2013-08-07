@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/486/stacks/mrl_robots/trunk/mrl_robots_2dnav/amcl
+END
+amcl_isr_floor0.launch
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/486/stacks/mrl_robots/trunk/mrl_robots_2dnav/amcl/amcl_isr_floor0.launch
+END
+amcl_mrl_arena.launch
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/486/stacks/mrl_robots/trunk/mrl_robots_2dnav/amcl/amcl_mrl_arena.launch
+END
