@@ -12,10 +12,10 @@
 #include <cereal_port/CerealPort.h>
 
 
-#define MAX_ENCODER_COUNT 1155
+#define MAX_ENCODER_COUNT 32768 
 
 #define AXLE_LENGTH 	0.225
-#define PULSES_TO_M	0.000073529
+#define PULSES_TO_M	0.00073529
 			
 #ifndef NORMALIZE
     #define NORMALIZE(z) atan2(sin(z), cos(z))	// Normalize angle to domain -pi, pi 
@@ -39,11 +39,10 @@ double odometry_yaw_ = 0.0;
 int right_encoder_prev = 0;
 int left_encoder_prev = 0;
 
-
 //Receive encoder ticks and send 'odom' and 'tf'
 void robotDataCallback(std::string * data){ 
    
-	ROS_INFO("x = %f , y = %f , yaw = %f",odometry_x_,odometry_y_,odometry_yaw_);
+//   	ROS_INFO("x = %f , y = %f , yaw = %f",odometry_x_,odometry_y_,odometry_yaw_);
     if (confirm_communication){
       //ROS_INFO("Robot -- Communication OK! Received: \"%s\"", data->c_str());
       ROS_INFO("Stingbot is Streaming Data.");
@@ -63,7 +62,7 @@ void robotDataCallback(std::string * data){
     
     int left_encoder_count, right_encoder_count;	
     sscanf(data->c_str(), "@6,%d,%de", &right_encoder_count, &left_encoder_count);   //encoder msg parsing
-
+//    ROS_INFO("@6,%d,%de",right_encoder_count, left_encoder_count);
     //protection against broken msgs from the buffer (e.g., '@6,425@6,4250,6430e')
     if ( abs(right_encoder_count) > MAX_ENCODER_COUNT || abs(left_encoder_count) > MAX_ENCODER_COUNT){
       ROS_WARN("Encoders > MAX_ENCODER_COUNT");
