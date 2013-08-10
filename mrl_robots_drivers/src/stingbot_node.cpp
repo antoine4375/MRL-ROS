@@ -16,7 +16,7 @@
 
 #define AXLE_LENGTH 	0.24
 // change lemona pulses_to_m
-#define PULSES_TO_M	0.000233685
+#define PULSES_TO_M	0.000734045
 
 			
 #ifndef NORMALIZE
@@ -44,7 +44,8 @@ int left_encoder_prev = 0;
 //Receive encoder ticks and send 'odom' and 'tf'
 void robotDataCallback(std::string * data){ 
    
-//   	ROS_INFO("x = %f , y = %f , yaw = %f",odometry_x_,odometry_y_,odometry_yaw_);
+	//ROS_INFO("x = %f , y = %f , yaw = %f",odometry_x_,odometry_y_,odometry_yaw_);
+	ROS_INFO("Received: \"%s\"", data->c_str());
     if (confirm_communication){
       //ROS_INFO("Robot -- Communication OK! Received: \"%s\"", data->c_str());
       ROS_INFO("Stingbot is Streaming Data.");
