@@ -14,8 +14,10 @@
 
 #define MAX_ENCODER_COUNT 32768 
 
-#define AXLE_LENGTH 	0.225
-#define PULSES_TO_M	0.00073529
+#define AXLE_LENGTH 	0.24
+// change lemona pulses_to_m
+#define PULSES_TO_M	0.000233685
+
 			
 #ifndef NORMALIZE
     #define NORMALIZE(z) atan2(sin(z), cos(z))	// Normalize angle to domain -pi, pi 
