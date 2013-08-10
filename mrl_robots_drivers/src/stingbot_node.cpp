@@ -68,7 +68,7 @@ void robotDataCallback(std::string * data){
       ROS_WARN("Encoders > MAX_ENCODER_COUNT");
       return; 
     }
-        
+    
     double last_x = odometry_x_;
     double last_y = odometry_y_;
     double last_yaw = odometry_yaw_;           
