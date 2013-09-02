@@ -9,4 +9,16 @@
 
   <node pkg="tf" type="static_transform_publisher" name="base_link_to_laser" args="0.085 0.0 0.06 0.0 0.0 0.0 1.0 /base_link /laser 100" />
 
+  <!--- Run AMCL -->
+  <include file="$(find mrl_robots_2dnav)/amcl/amcl_mrl_arena.launch" />
+
+  <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+
+    <rosparam file="$(find mrl_robots_2dnav)/arena_params_stingbot/costmap_common_params.yaml" command="load" ns="global_costmap" />
+    <rosparam file="$(find mrl_robots_2dnav)/arena_params_stingbot/costmap_common_params.yaml" command="load" ns="local_costmap" />
+    <rosparam file="$(find mrl_robots_2dnav)/arena_params_stingbot/local_costmap_params.yaml" command="load" />
+    <rosparam file="$(find mrl_robots_2dnav)/arena_params_stingbot/global_costmap_params.yaml" command="load" />
+    <rosparam file="$(find mrl_robots_2dnav)/arena_params_stingbot/base_local_planner_params.yaml" command="load" />
+  </node>
+
 </launch>
